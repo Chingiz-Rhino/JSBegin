@@ -81,7 +81,7 @@ appData.expenses.a3 = a4;
 alert(appData.budget / 30); */
 
 //Условия 119:
- /*if (2*4 ==8) {
+ if (2*4 ==8) {
     console.log('Верно!')
 } else {
     console.log('Неверно')
@@ -116,6 +116,23 @@ switch (num) {
         console.log('Что то пошло не так!');
         break;
 
-}/*
+}
+//Циклы
+let num = 50;
+/* while (num < 55) {
+    console.log(num);
+    num++;
+} */
 
+do {
+    console.log(num);
+    num++;
+}
+while(num < 55);
 
+for(let i = 1; i < 8; i++) {
+    if(i==6) {
+        continue
+    }
+    console.log(i);
+}
