@@ -81,7 +81,7 @@ appData.expenses.a3 = a4;
 alert(appData.budget / 30); */
 
 //Условия 119:
- if (2*4 ==8) {
+/*  if (2*4 ==8) {
     console.log('Верно!')
 } else {
     console.log('Неверно')
@@ -116,23 +116,73 @@ switch (num) {
         console.log('Что то пошло не так!');
         break;
 
-}
+} */
 //Циклы
-let num = 50;
+//1
+/* let num = 50;
 /* while (num < 55) {
     console.log(num);
     num++;
 } */
-
-do {
+//2
+/* do {
     console.log(num);
     num++;
 }
-while(num < 55);
-
-for(let i = 1; i < 8; i++) {
+while(num < 55); */
+//3
+/* for(let i = 1; i < 8; i++) {
     if(i==6) {
         continue
     }
     console.log(i);
+} */
+
+
+//Функции
+/* let num = 20;
+
+function showFirstMessage(text) {
+    alert(text);
+    let num = 10;
+    console.log(num);
 }
+
+showFirstMessage("Hello world");
+console.log(num); */
+
+//Возврат
+//вариант 1
+//function calc (a,b)
+
+//Вариант 2
+/* let calc = function (a,b) {
+    return (a+b);
+} */
+//вариант 3... стрелочная функция
+/* let calc = (a,b) => a+b
+
+console.log(calc(3,4))
+
+console.log(calc(5,6))
+
+function retVar() {
+    let num =50;
+    return num;
+}
+
+let anotherNum = retVar();
+console.log(anotherNum);
+
+let str = "Batman";
+console.log(str.length);
+
+console.log(str.toUpperCase())
+console.log(str.toLowerCase())
+
+let twelve = "12.2px";
+
+//console.log(Math.round(twelve));
+console.log(parseInt(twelve));
+console.log(parseFloat(twelve)); */
+
