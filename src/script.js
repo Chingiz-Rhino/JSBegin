@@ -138,6 +138,22 @@ while(num < 55); */
     console.log(i);
 } */
 
+/* for(let i=0; i<101; i=i+5) {
+    console.log(i);
+}
+
+let i = 0;
+while(i<101) {
+    console.log(i);
+   i=i+5;
+}
+
+let i=0;
+do {
+    console.log(i);
+    i=i+5
+}
+while(i<101); */
 
 //Функции
 /* let num = 20;
@@ -186,3 +202,140 @@ let twelve = "12.2px";
 console.log(parseInt(twelve));
 console.log(parseFloat(twelve)); */
 
+
+//Callback функции
+
+/* function first () {
+    //что то делаем
+    setTimeout(function(){
+        console.log(1);
+    }, 500 );
+}
+
+function second(){
+    console.log(2);
+}
+
+first();
+second(); */
+
+/* function learnJS(lang, callback) {
+    console.log("Я учу " + lang);
+    callback();
+}
+
+function done() {
+    console.log("Я прошёл третий урок!")
+}
+
+learnJS('JavaScript', done); */
+
+
+//Объекты
+/* let options = {
+    with: 1024,
+    height: 1024,
+    name: "test"
+};
+
+console.log(options.name);
+options.bool = false;
+options.colors = {
+    border: "black",
+    bg: "red"
+};
+
+delete options.bool;
+
+console.log(options);
+
+for(let key  in options) {
+    console.log("Свойство " + key + " имеет " + options[key]);
+}
+
+console.log(Object.keys(options).length); */
+
+
+
+//Массивы
+
+//let arr = ["first", 2, 3, "four", 5];
+//arr[99] = 99;
+//console.log(arr.length);
+
+
+/* for (let i = 0; i < arr.length; i++) {
+    console.log(arr[i]);
+} */
+
+/* arr.forEach(function(item, i, mass) {
+ console.log(i + ": " + item + " (массив: " + mass + ")");
+});
+
+console.log(arr);
+
+let mass = [1,3,4,6,7];
+
+for(let key of mass) {
+    console.log(key);
+} */
+
+/* let ans = prompt("", ""),
+    arr = []
+arr = ans.split(",");
+console.log(arr); */
+
+/* let arr = ["abc", "zzz", "pp", "rqid"],
+    i = arr.join(", ");
+
+    console.log(i); */
+/* 
+    let arr = ["abc", "zzz", "pp", "rqid"],
+    i = arr.sort();
+
+    console.log(arr); */
+
+    
+   /*  let arr = [1, 15, 4, 7],
+    i = arr.sort(compareNum);
+
+
+    function compareNum(a,b) {
+        return a-b
+    }
+
+    console.log(arr);
+
+
+    //Объектно-ориентированное программирование
+let solider = {
+    health: 400,
+    armor: 100
+};
+
+let jhon = {
+    health: 100
+};
+
+jhon.__proto__= solider;
+
+console.log(jhon);
+console.log(jhon.armor);
+
+
+
+let arr = [1,7,3,4,11,0];
+let maxValue = max.apply(11,arr);
+console.log(maxValue);
+ */
+
+//вывести максимальное число в консоль
+/* let arr = [1,7,3,4,11,0];
+    max=arr[0];
+for (let i=0; i < arr.length; i++) {
+    if (arr[i] > max ){
+        max=arr[i];
+    }    
+}
+console.log(max);
+ */
