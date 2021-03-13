@@ -339,3 +339,79 @@ for (let i=0; i < arr.length; i++) {
 }
 console.log(max);
  */
+
+
+/* function hello() {
+    console.log("Hello World!");
+}
+
+hello();
+
+function hi() {
+    console.log("Hello World!");
+}
+hi();
+
+let ar = [1, 15, 4, 30, 42],
+    i = arr.sort(compareNum);
+
+function compareNum(a,b) {
+    return a-b;
+}
+
+console.log(arr); */
+
+
+//Превращение в строку
+
+// 1)
+
+console.log(typeof(String(4)));
+
+// 2)
+
+console.log("www" + 5);
+
+console.log("https://vk.com/catalog" + 5);
+
+
+//Превращение в число
+
+// 1)
+
+console.log(typeof(Number('5')));
+
+
+// 2)
+
+console.log(typeof(5 + +'5'));
+
+// 3)
+
+console.log(typeof(parseInt('15px', 10)));
+
+
+let ans = +prompt('Hello?', '');
+
+//0, '', null, undefined, NaN - Всегда False
+
+// Логическое преобразование №1
+let switcher = null;
+
+if (switcher) {
+    console.log("Work..")
+}
+
+switcher = 1;
+if (switcher) {
+    console.log("Work..")
+}
+
+// Логическое преобразование №2
+console.log(typeof(Boolean('5')));
+
+// Логическое преобразование №3
+
+console.log(typeof(!!'5'));
+
+console.log(0 || '' || 2 || undefined || true || false);
